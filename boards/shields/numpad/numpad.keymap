@@ -48,7 +48,7 @@
             status = "reserved";
         };
         
-        extra_layer_3 {
+        extra_layer_5 {
             status = "reserved";
         };
 
