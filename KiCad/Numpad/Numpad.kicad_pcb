@@ -18523,6 +18523,22 @@
 		(uuid "dff2d20b-2125-435a-894e-6c5bd315a3c8")
 	)
 	(segment
+		(start 155.19 135.89)
+		(end 155.19 133.75875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 24)
+		(uuid "172e4cbc-d84e-4cf5-9006-279e322df321")
+	)
+	(segment
+		(start 155.19 133.75875)
+		(end 154.78125 133.35)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 24)
+		(uuid "1e593442-527b-4729-a7c6-b5cee18089c4")
+	)
+	(segment
 		(start 155.19 95.65875)
 		(end 154.78125 95.25)
 		(width 0.2)
