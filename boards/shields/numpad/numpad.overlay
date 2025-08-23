@@ -32,10 +32,6 @@
         >;
     };
     
-    chosen {
-        zmk,physical-layout = &physical_layout0;
-        // Other chosen items
-    };    
     
     physical_layout0: physical_layout_0 { // First physical layout, use different naming for other layouts
         compatible = "zmk,physical-layout";
@@ -61,5 +57,10 @@
             , <&key_physical_attrs 100 100   300   300     0     0     0>
             ;
     };
+    
+    chosen {
+        zmk,physical-layout = &physical_layout0;
+        // Other chosen items
+    };    
 };
 
