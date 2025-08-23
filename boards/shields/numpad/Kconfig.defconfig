@@ -2,5 +2,12 @@ if SHIELD_NUMPAD
 
 config ZMK_KEYBOARD_NAME 
     default "StingArray"
+    
+#sleep settings
+config ZMK_SLEEP
+    default y
+
+config ZMK_IDLE_SLEEP_TIMEOUT
+    default 120000
 
 endif
